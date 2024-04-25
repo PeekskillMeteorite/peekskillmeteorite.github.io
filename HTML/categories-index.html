@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/categories-style.css">
+    <script src="../JavaScript/categories-script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Categories | You don't need This</title>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <a href="../HTML/you-dont-need-this-index.html" id="home-button">You Don't Need This</a>
+            <div class="banner-right">
+                <nav id="navbar">
+                    <a class="nav-item" id="categ" href="#">Categories</a>
+                    <a class="nav-item" id="what" href="../HTML/WHAT-index.html">WHAT?</a>
+                    <a class="nav-item" id="sug" href="">Have a Suggestion?</a>
+                </nav>
+                <div class="flags">
+                    <img id="english" src="../Images/united-kingdom.png" alt="british flag pin" onclick="changeLanguage('en')">
+                    <img id="spanish" src="../Images/spain.png" alt="spanish flag pin" onclick="changeLanguage('es')">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="boxes">
+            <div class="category">
+                <a class="linko" href="../HTML/merch-index.html">
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/51J1vi5ACGL._AC_SL1004_.jpg" class="image" alt="">
+                    </div>
+                    <h2 id="merch">Merchandising</h2>
+                </a>
+            </div>
+            <div class="category">
+                <a class="linko" href="../HTML/toys-index.html">
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/61CRMlogPDL._AC_SL1200_.jpg" class="image" alt="Pistola de juguete Nerf">
+                    </div>
+                    <h2 id="toys">Toys</h2>
+                </a>
+            </div>
+            <div class="category">
+                <a class="linko" href="../HTML/board-games-index.html">
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/91ezFG-gQ6L._AC_SL1500_.jpg" class="image" alt="">
+                    </div>
+                    <h2 id="board">Board Games</h2>
+                </a>
+            </div>
+            <div class="category">
+                <a class="linko" href="../HTML/gaming-index.html">
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/71r1PEsxxqL._AC_SL1500_.jpg" class="image" alt="">
+                    </div>
+                    <h2 id="gaming">Gaming & Computers</h2>
+                </a>
+            </div>
+            <div class="category">
+                <a class="linko" href="../HTML/sound-index.html">
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/71UMgb+pJwS._AC_SL1500_.jpg" class="image" alt="">
+                    </div>
+                    <h2 id="sound">Sound & Music</h2>
+                </a>
+            </div>
+            <div class="category">
+                <a class="linko" href="../HTML/light-index.html">
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/51zKUGscvOL._AC_SL1000_.jpg" class="image" alt="">
+                    </div>
+                    <h2 id="compu">Light & Image</h2>
+                </a>
+            </div>
+            <div class="category">
+                <a class="linko" href="../HTML/books-index.html">
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/61KwgubsPpL._SL1118_.jpg" class="image" alt="">
+                    </div>
+                    <h2 id="book">Books</h2>
+                </a>
+            </div>
+            <div class="category">
+                <a class="linko" href="../HTML/home-kitchen-index.html">
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/71AzfO8C5oL._AC_SL1500_.jpg" class="image" alt="">
+                    </div>
+                    <h2 id="home">Home & Kitchen</h2>
+                </a>
+            </div>
+            <div class="category">
+                <a class="linko" href="../HTML/clothing-index.html">
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/61Bb9SW-c-S._AC_SY625_.jpg" class="image" alt="">
+                    </div>
+                    <h2 id="cloth">Clothing & Footwear</h2>
+                </a>
+            </div>
+            <div class="category">
+                <a class="linko" href="../HTML/accessories-index.html">
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/519PhlT1+IL._AC_SX679_.jpg" class="image" alt="">
+                    </div>
+                    <h2 id="kitch">Accessories</h2>
+                </a>
+            </div>
+            <div class="category">
+                <a class="linko" href="../HTML/sports-index.html">
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/61jE1EOictL._AC_SL1500_.jpg" class="image" alt="">
+                    </div>
+                    <h2 id="sport">Sports and Outdoors</h2>
+                </a>
+            </div>
+            <div class="category">
+                <a class="linko" href="../HTML/propane-index.html">
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/81NL6YkOViL._AC_SL1500_.jpg" class="image" alt="">
+                    </div>
+                    <h2 id="pet">Propane and propane accessories <br> 
+                    (AKA uncategorizable)</h2>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li class="footer-link">Legal Info</li>
+            <li class="footer-link">Privacy Policy</li>
+            <li class="footer-link">Cookies Policy</li>
+        </ul>
+        <div>
+            <img src="" alt="">
+        </div>
+    </footer>
+</body>
+</html>

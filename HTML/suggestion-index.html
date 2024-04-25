@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/suggestion-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Have a Suggestion?</title>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <a href="../HTML/you-dont-need-this-index.html" id="home-button">You Don't Need This</a>
+            <div class="banner-right">
+                <nav id="navbar">
+                    <a class="nav-item" id="categ" href="#">Categories</a>
+                    <a class="nav-item" id="what" href="../HTML/WHAT-index.html">WHAT?</a>
+                    <a class="nav-item" id="sug" href="">Have a Suggestion?</a>
+                </nav>
+                <div class="flags">
+                    <img id="english" src="../Images/united-kingdom.png" alt="british flag pin" onclick="changeLanguage('en')">
+                    <img id="spanish" src="../Images/spain.png" alt="spanish flag pin" onclick="changeLanguage('es')">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="explanation">
+            <h2>Hi!</h2>
+            <h4>At some point in your journey through the internet you may come across an artifact that would be the perfect fit for this site. <br>
+            If you do and want to share it with the world (the lovely folks that visit this website), please copy the link into the form bellow (it doesn't have to be from Amazon, the internet is filled with unnecessary wonders that deserve to be known).</h4>
+        </div>
+        <div id="container">
+            <form action="../PHP/suggestions.php" id="form">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" placeholder="John">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Smith"><br>
+                <label for="suggestion">Paste the URL of the "unnecessary" thing you want to see promoted on the web site here:</label>
+                <textarea name="suggestion" id="text-box" cols="30" rows="10"></textarea><br>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li class="footer-link">Legal Info</li>
+            <li class="footer-link">Privacy Policy</li>
+            <li class="footer-link">Cookies Policy</li>
+        </ul>
+        <div>
+            <img src="" alt="">
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,227 @@
+body {
+    background-color: #F8F8F8;
+    margin: 0;
+}
+
+.banner {
+    background-color: #FF1050;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+#home-button {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 52px;
+    text-decoration: none;
+    color: white;
+    margin: 42px;
+    align-content: center;
+}
+
+.banner-right {
+    display: flex;
+}
+
+#navbar {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    justify-content: space-around;
+    align-content: center;
+    margin-right: 32px;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+}
+
+.nav-item:hover {
+    color: #FADA5E;
+}
+
+.flags {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#english, #spanish {
+    width: 42px;
+    padding: 3px 15px 3px 0px;
+}
+
+.linko {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: inherit;
+    padding: 10px;
+}
+
+#boxes {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1360px;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+
+.category {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 340px;
+    padding-bottom: 20px;
+    margin: 12px;
+    border-radius: 13px;
+    flex-grow: 1;
+    border-top: 4px #FA7922 solid;
+    border-bottom: 4px #00AABB solid;
+}
+
+.img-container {
+    height: 320px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.image {
+    max-width: 90%;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #424242;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#pet {
+    font-size: 15px;
+}
+
+footer {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 140px;
+    padding: 20px 0 0 100px;
+    color: white;
+    background-color: #FF1050;
+    font-size: 16px;
+    line-height: 22px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1042px) {
+    .banner {
+        height: 70px;
+    }
+    
+    #home-button {
+        font-size: 36px;
+        padding: 0;
+        padding-left: 30px;
+        margin: 0;
+    }
+    
+    #navbar {
+        font-size: 16px;
+        margin-right: 16px;
+    }
+    
+    .nav-item {
+        margin: 6px;
+    }
+
+    #english, #spanish {
+        width: 28px;
+        padding: 2px 5px 2px 0px;
+    }
+    
+    main {
+        padding: 30px 0;
+        justify-content: space-evenly;
+    }
+    
+    footer {
+        font-family: "Poppins", sans-serif;
+        width: 100%;
+        height: 120px;
+        padding: 0;
+        padding-left: 50px;
+        color: white;
+        background-color: #FF1050;
+        font-size: 18px;
+        line-height: 22px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 720px) {
+    .banner {
+        padding-top: 10px;
+        height: 50px;
+    }
+
+    #home-button {
+        font-size: 36px;
+        padding: 0;
+        margin: auto;
+    }
+    
+    #navbar {
+        display: none;
+    }
+
+    .flags {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        padding-right: 5px;
+    }
+
+    #english, #spanish {
+        height: 36px;
+        width: 40px;
+        padding: 0;
+        padding-right: 5px;
+    }
+
+    main {
+        padding: 10px 0 0 0;
+        justify-content: center;
+    }
+
+    footer {
+        font-family: "Poppins", sans-serif;
+        width: 100%;
+        height: 100px;
+        padding: 0;
+        padding-left: 40px;
+        color: white;
+        background-color: #FF1050;
+        font-size: 16px;
+        line-height: 20px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+    }
+}
+
