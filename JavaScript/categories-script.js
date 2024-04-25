@@ -32,7 +32,7 @@ function changeLanguage(lang) {
         cloth.innerHTML = "Clothing & Footwear"
         kitch.innerHTML = "Accessories"
         sport.innerHTML = "Sports and Outdoors"
-        pet.innerHTML = "Propane and propane accessories"
+        pet.innerHTML = "Propane and propane accessories <br> (AKA uncategorizable)"
     }
     else if (lang == "es") {
         categ.innerHTML = "Categorías";
