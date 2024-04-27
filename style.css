@@ -32,6 +32,7 @@ h1 {
 #business-card {
     display: flex;
     height: 20vh;
+    width: 100vw;
     justify-content: center;
     align-items: center;
     background-color: #008080;
