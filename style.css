@@ -108,7 +108,7 @@ h1 {
 @keyframes descale {
     0% {font-size: 60px;}
     75% {font-size: 60px;}
-    100% {font-size: 50px;}
+    100% {font-size: 42px;}
 }
 
 #pages {
