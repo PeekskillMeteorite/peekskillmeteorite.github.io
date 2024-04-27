@@ -1,0 +1,111 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+#symbol {
+    font-family: "Concert One", sans-serif;
+    font-size: 80px;
+    color: #ff9911;
+    animation-name: coloring;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes coloring {
+    0% {color: white;
+        transform: rotate(360deg);
+        font-size: 120px;
+    }
+    20% {color: white;}
+    36% {color: #ff9911;}
+    40% {transform: rotate(360deg);}
+    60% {transform: rotate(0deg);}
+    75% {font-size: 120px;}
+    100% {font-size: 80px;}
+}
+
+#business-card {
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #008080;
+    color: white;
+    animation-name: shrink;
+    animation-duration: 4s;
+}
+
+@keyframes shrink {
+    0% {height: 100vh;}
+    75% {height: 100vh;}
+    100% {height: 20vh;}
+}
+
+#first-minicard, #second-minicard, #third-minicard {
+    height: 20vh;
+}
+
+#first-minicard {
+    align-content: start;
+    animation-name: appear;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes appear {
+    0% {transform: translateY(-300px);
+        opacity: 0;
+        height: 40vh;
+    }
+    40% {transform: translateY(-300px);
+        opacity: 0;}
+    60% {transform: translateY(0px);
+        opacity: 1;}
+    75% {height: 40vh;}
+    100% {height: 20vh;}
+}
+
+#second-minicard {
+    align-content: center;
+    margin-top: -10px;
+}
+
+#third-minicard {
+    align-content: end;
+    animation-name: surge;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes surge {
+    0% {transform: translateY(300px);
+        opacity: 0;
+        height: 40vh;
+    }
+    40% {transform: translateY(300px);
+        opacity: 0;}
+    60% {transform: translateY(0px);
+        opacity: 1;}
+    75% {height: 40vh;}
+    100% {height: 20vh;}    
+}
+
+.title-h {
+    margin: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    animation-name: descale;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes descale {
+    0% {font-size: 60px;}
+    75% {font-size: 60px;}
+    100% {font-size: 50px;}
+}
