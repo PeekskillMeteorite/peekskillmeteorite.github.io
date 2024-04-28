@@ -12,7 +12,7 @@ h1 {
     font-size: 70px;
     color: #ff9911;
     animation-name: coloring;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-timing-function: ease-out;
 }
 
@@ -21,8 +21,8 @@ h1 {
         transform: rotate(360deg);
         font-size: 120px;
     }
-    20% {color: #008080;}
-    35% {color: #ff9911;}
+    15% {color: #008080;}
+    30% {color: #ff9911;}
     40% {transform: rotate(360deg);}
     60% {transform: rotate(0deg);}
     75% {font-size: 120px;}
@@ -38,7 +38,7 @@ h1 {
     background-color: #008080;
     color: white;
     animation-name: shrink;
-    animation-duration: 4s;
+    animation-duration: 3s;
 }
 
 @keyframes shrink {
@@ -54,20 +54,20 @@ h1 {
 #first-minicard {
     align-content: start;
     animation-name: appear;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-timing-function: ease-out;
 }
 
 @keyframes appear {
     0% {transform: translateY(-300px);
         opacity: 0;
-        height: 40vh;
+        height: 35vh;
     }
     40% {transform: translateY(-300px);
         opacity: 0;}
     60% {transform: translateY(0px);
         opacity: 1;}
-    75% {height: 40vh;}
+    75% {height: 35vh;}
     100% {height: 15vh;}
 }
 
@@ -79,20 +79,20 @@ h1 {
 #third-minicard {
     align-content: end;
     animation-name: surge;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-timing-function: ease-out;
 }
 
 @keyframes surge {
     0% {transform: translateY(300px);
         opacity: 0;
-        height: 40vh;
+        height: 35vh;
     }
     40% {transform: translateY(300px);
         opacity: 0;}
     60% {transform: translateY(0px);
         opacity: 1;}
-    75% {height: 40vh;}
+    75% {height: 35vh;}
     100% {height: 15vh;}    
 }
 
@@ -101,7 +101,7 @@ h1 {
     font-size: 42px;
     font-weight: 600;
     animation-name: descale;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-timing-function: ease-out;
 }
 
@@ -111,40 +111,81 @@ h1 {
     100% {font-size: 42px;}
 }
 
+#intro {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 1000px;
+}
+
+#hello {
+    font-size: 24px;
+    font-weight: 300;
+    color: #333;
+}
+
 #pages {
     display: flex;
     justify-content: center;
     margin: 30px;
-    margin-top: 50px;
 }
 
-#page {
+#page-1 {
+    margin: 20px;
     display: flex;
     flex-direction: column;
     max-width: 500px;
     background-color: #008080;
     border: 4px #ff9911 solid;
     border-radius: 15px;
+    animation-name: phase;
+    animation-duration: 3.5s;
 }
 
-#link {
+#page-2 {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    background-color: #008080;
+    border: 4px #ff9911 solid;
+    border-radius: 15px;
+    animation-name: phase;
+    animation-duration: 3.5s;
+    animation-delay: 0.25s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes phase {
+    0% {opacity: 0;
+        transform: translateY(60px);}
+    80% {opacity: 0;
+        transform: translateY(60px);}
+    100% {opacity: 1;
+        transform: translateY(0px);}
+}
+
+
+.link {
     text-decoration: none;
 }
 
-#page-img {
+.page-img {
     margin: 0;
     max-width: 500px;
     border-radius: 11px 11px 0 0;
 }
 
-#page-name, #page-description {
+.page-name, .page-description {
     color: white;
 }
 
-#page-name {
+.page-name {
     margin: 15px 10px 10px 10px;
 }
 
-#page-description {
+.page-description {
     margin: 10px 10px 20px 10px;
 }
