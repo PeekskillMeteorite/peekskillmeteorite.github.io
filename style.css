@@ -12,7 +12,7 @@ h1 {
     font-size: 70px;
     color: #ff9911;
     animation-name: coloring;
-    animation-duration: 3s;
+    animation-duration: 3.2s;
     animation-timing-function: ease-out;
 }
 
@@ -38,7 +38,8 @@ h1 {
     background-color: #008080;
     color: white;
     animation-name: shrink;
-    animation-duration: 3s;
+    animation-duration: 3.2s;
+    margin-bottom: 30px;
 }
 
 @keyframes shrink {
@@ -54,15 +55,14 @@ h1 {
 #first-minicard {
     align-content: start;
     animation-name: appear;
-    animation-duration: 3s;
+    animation-duration: 3.2s;
     animation-timing-function: ease-out;
 }
 
 @keyframes appear {
     0% {transform: translateY(-300px);
         opacity: 0;
-        height: 35vh;
-    }
+        height: 35vh;}
     40% {transform: translateY(-300px);
         opacity: 0;}
     60% {transform: translateY(0px);
@@ -79,7 +79,7 @@ h1 {
 #third-minicard {
     align-content: end;
     animation-name: surge;
-    animation-duration: 3s;
+    animation-duration: 3.2s;
     animation-timing-function: ease-out;
 }
 
@@ -98,70 +98,113 @@ h1 {
 
 .title-h {
     margin: 20px;
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 600;
     animation-name: descale;
-    animation-duration: 3s;
+    animation-duration: 3.2s;
     animation-timing-function: ease-out;
 }
 
 @keyframes descale {
     0% {font-size: 60px;}
     75% {font-size: 60px;}
-    100% {font-size: 42px;}
+    100% {font-size: 40px;}
 }
 
 #intro {
-    padding: 40px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    max-width: 1000px;
+    max-width: 840px;
 }
 
 #hello {
+    margin: 0;
     font-size: 24px;
     font-weight: 300;
     color: #333;
+    animation-name: darken;
+    animation-duration: 3.2s;
+}
+
+@keyframes darken {
+    0% {color: white;}
+    50% {color: white;}
+    100% {color: #333;}
+}
+
+#treadmill {
+    display: flex;
+}
+
+.skills {
+    display: flex;
+    margin: 30px 0;
+    padding: 0;
+    list-style: none;
+    animation: scroll 25s linear infinite;
+    animation-delay: 2.6s;
+}
+
+@keyframes scroll {
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(-100%);}
+}
+
+.skill {
+    height: 13vw;
+}
+
+.margin-1 {
+    margin: 0 10px;
+}
+
+.margin-2 {
+    margin: 0 20px;
+}
+
+.margin-3 {
+    margin: 0 20px 0 30px;
 }
 
 #pages {
+    margin-top: 60px;
     display: flex;
     justify-content: center;
-    margin: 30px;
 }
 
 #page-1 {
     margin: 20px;
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 400px;
     background-color: #008080;
     border: 4px #ff9911 solid;
     border-radius: 15px;
     animation-name: phase;
-    animation-duration: 3.5s;
+    animation-duration: 4s;
 }
 
 #page-2 {
     margin: 20px;
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 400px;
     background-color: #008080;
     border: 4px #ff9911 solid;
     border-radius: 15px;
     animation-name: phase;
-    animation-duration: 3.5s;
-    animation-delay: 0.25s;
+    animation-duration: 4s;
+    animation-delay: 0.3s;
     animation-timing-function: ease-out;
 }
 
 @keyframes phase {
     0% {opacity: 0;
         transform: translateY(60px);}
-    80% {opacity: 0;
+    75% {opacity: 0;
         transform: translateY(60px);}
     100% {opacity: 1;
         transform: translateY(0px);}
@@ -174,7 +217,7 @@ h1 {
 
 .page-img {
     margin: 0;
-    max-width: 500px;
+    max-width: 400px;
     border-radius: 11px 11px 0 0;
 }
 
