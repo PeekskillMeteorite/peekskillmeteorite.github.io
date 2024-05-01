@@ -263,7 +263,7 @@ li {
     @keyframes coloring {
         0% {color: #008080;
             transform: rotate(360deg);
-            font-size: 50px;
+            font-size: 60px;
         }
         15% {color: #008080;}
         30% {color: #ff9911;}
