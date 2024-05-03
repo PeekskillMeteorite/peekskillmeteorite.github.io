@@ -74,6 +74,7 @@ h1 {
 }
 
 #second-minicard {
+    height: 15vh;
     align-content: center;
     margin-top: -10px;
     animation: match 3.2s ease-out;
@@ -365,8 +366,6 @@ li {
     
     #second-minicard {
         align-content: center;
-        margin-top: -10px;
-
     }
     
     #third-minicard {
