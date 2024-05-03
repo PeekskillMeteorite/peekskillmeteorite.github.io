@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
     <title>Angel Prieto | Portfolio</title>
@@ -26,77 +27,77 @@
         <p class="hello">Hi, I'm Angel Prieto, a Web and Software Developer based in Madrid, Spain. Always growing, always learning, because the more I learn, the more I love what I do. You, your business and your ideas can have their own nice, efficient home on the internet, and I can create it for you.</p>
         <p class="hello">Below, you can see some of the <strong>skills</strong> I have developed. If you click in that area, more details will come up.</p>
     </div>
-    <div id="treadmill">
-        <ul class="skills">
-            <li>
-                <img class="skill" src="Images/HTML5.png" alt="">
-            </li>
-            <li>
-                <img class="skill margin-2" src="Images/CSS-logo.svg" alt="">
-            </li>
-            <li>
-                <img class="skill margin-2" src="Images/JavaScript.png" alt="">
-            </li>
-            <li>
-                <img class="skill margin-1" src="Images/NodeJS.png" alt="">
-            </li>
-            <li>
-                <img class="skill margin-1" src="Images/React.png" alt="">
-            </li>
-            <li>
-                <img class="skill margin-1" src="Images/Redux.png" alt="">
-            </li>
-            <li>
-                <img class="skill margin-1" src="Images/SQL.png" alt="">
-            </li>
-            <li>
-                <img class="skill margin-1" src="Images/GitBash.svg" alt="">
-            </li>
-            <li>
-                <img class="skill margin-2" src="Images/Python-logo-notext.svg.png" alt="">
-            </li>
-        </ul>
-        <ul class="skills">
-            <li>
-                <img class="skill" src="Images/HTML5.png" alt="">
-            </li>
-            <li>
-                <img class="skill margin-2" src="Images/CSS-logo.svg" alt="">
-            </li>
-            <li>
-                <img class="skill margin-2" src="Images/JavaScript.png" alt="">
-            </li>
-            <li>
-                <img class="skill margin-1" src="Images/NodeJS.png" alt="">
-            </li>
-            <li>
-                <img class="skill margin-1" src="Images/React.png" alt="">
-            </li>
-            <li>
-                <img class="skill margin-1" src="Images/Redux.png" alt="">
-            </li>
-            <li>
-                <img class="skill margin-1" src="Images/SQL.png" alt="">
-            </li>
-            <li>
-                <img class="skill margin-2" src="Images/Python-logo-notext.svg.png" alt="">
-            </li>
-            <li>
-                <img class="skill margin-1" src="Images/GitBash.svg" alt="">
-            </li>
-        </ul>
-    </div>
-    <div id="details">
-        <ul>
-            <li class="deet">HTML</li>
-            <li class="deet">CSS</li>
-            <li class="deet">JavaScript</li>
-            <li class="deet">Node.JS</li>
-            <li class="deet">React</li>
-            <li class="deet">Redux</li>
-            <li class="deet">SQL</li>
-            <li class="deet">Python</li>
-            <li class="deet">GitBash</li>
+    <div id="skill-area">
+        <div id="treadmill" onclick="desplegable()">
+            <ul class="skills">
+                <li>
+                    <img class="skill" src="Images/HTML5.png" alt="">
+                </li>
+                <li>
+                    <img class="skill margin-2" src="Images/CSS-logo.svg" alt="">
+                </li>
+                <li>
+                    <img class="skill margin-2" src="Images/JavaScript.png" alt="">
+                </li>
+                <li>
+                    <img class="skill margin-1" src="Images/NodeJS.png" alt="">
+                </li>
+                <li>
+                    <img class="skill margin-1" src="Images/React.png" alt="">
+                </li>
+                <li>
+                    <img class="skill margin-1" src="Images/Redux.png" alt="">
+                </li>
+                <li>
+                    <img class="skill margin-1" src="Images/SQL.png" alt="">
+                </li>
+                <li>
+                    <img class="skill margin-1" src="Images/GitBash.svg" alt="">
+                </li>
+                <li>
+                    <img class="skill margin-2" src="Images/Python-logo-notext.svg.png" alt="">
+                </li>
+            </ul>
+            <ul class="skills">
+                <li>
+                    <img class="skill" src="Images/HTML5.png" alt="">
+                </li>
+                <li>
+                    <img class="skill margin-2" src="Images/CSS-logo.svg" alt="">
+                </li>
+                <li>
+                    <img class="skill margin-2" src="Images/JavaScript.png" alt="">
+                </li>
+                <li>
+                    <img class="skill margin-1" src="Images/NodeJS.png" alt="">
+                </li>
+                <li>
+                    <img class="skill margin-1" src="Images/React.png" alt="">
+                </li>
+                <li>
+                    <img class="skill margin-1" src="Images/Redux.png" alt="">
+                </li>
+                <li>
+                    <img class="skill margin-1" src="Images/SQL.png" alt="">
+                </li>
+                <li>
+                    <img class="skill margin-2" src="Images/Python-logo-notext.svg.png" alt="">
+                </li>
+                <li>
+                    <img class="skill margin-1" src="Images/GitBash.svg" alt="">
+                </li>
+            </ul>
+        </div>
+        <ul class="details">
+            <li class="deet topy"><strong>HTML</strong>: 3 years of experience</li>
+            <li class="deet"><strong>CSS</strong>: 3 years of experience</li>
+            <li class="deet"><strong>JavaScript</strong>: 2 years of experience</li>
+            <li class="deet"><strong>Node.JS</strong>: 1 years of experience</li>
+            <li class="deet"><strong>React</strong>: 1 years of experience</li>
+            <li class="deet"><strong>Redux</strong>: 1 years of experience</li>
+            <li class="deet"><strong>SQL</strong>: 1 years of experience</li>
+            <li class="deet"><strong>Python</strong>: 1 years of experience</li>
+            <li class="deet lopy"><strong>Git & GitHub</strong>: 3 years of experience</li>
         </ul>
     </div>
     <div id="pages">
