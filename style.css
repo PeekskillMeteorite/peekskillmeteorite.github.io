@@ -367,7 +367,7 @@ li {
     }
     
     #second-minicard {
-        align-items: center;
+        align-content: center;
         margin-top: 0;
         animation: mini-match 3.2s ease-out;
     }
