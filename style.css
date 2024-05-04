@@ -369,7 +369,7 @@ li {
         animation: mini-match 3.2s ease-out;
     }
 
-    @keyframes identifier {
+    @keyframes mini-match {
         0% {height: 20vh;}
         75% {height: 20vh;}
         100% {height: 10vh;}
