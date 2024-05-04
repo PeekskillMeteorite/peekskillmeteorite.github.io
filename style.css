@@ -365,14 +365,15 @@ li {
     }
     
     #second-minicard {
+        align-content: center;
         height: 10vh;
         margin-top: 0;
         animation: mini-match 3.2s ease-out;
     }
 
     @keyframes mini-match {
-        0% {height: 20vh;}
-        75% {height: 20vh;}
+        0% {height: 100vh;}
+        75% {height: 100vh;}
         100% {height: 10vh;}
     }
     
