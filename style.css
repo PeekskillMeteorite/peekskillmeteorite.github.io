@@ -75,8 +75,6 @@ h1 {
 }
 
 #second-minicard {
-    display: flex;
-    height: 15vh;
     align-content: center;
     margin-top: -10px;
     animation: match 3.2s ease-out;
@@ -336,8 +334,8 @@ li {
     }
     
     @keyframes shrink {
-        0% {height: 100vh;}
-        75% {height: 100vh;}
+        0% {height: 90vh;}
+        75% {height: 90vh;}
         100% {height: 10vh;}
     }
 
@@ -375,8 +373,8 @@ li {
     }
 
     @keyframes mini-match {
-        0% {height: 100vh;}
-        75% {height: 100vh;}
+        0% {height: 90vh;}
+        75% {height: 90vh;}
         100% {height: 10vh;}
     }
     
