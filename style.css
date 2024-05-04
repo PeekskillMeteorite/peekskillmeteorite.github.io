@@ -298,7 +298,7 @@ li {
 
     #symbol {
         font-family: "Concert One", sans-serif;
-        font-size: 36px;
+        font-size: 40px;
         color: #ff9911;
         animation-name: coloring;
         animation-duration: 3.2s;
@@ -315,7 +315,7 @@ li {
         40% {transform: rotate(360deg);}
         60% {transform: rotate(0deg);}
         75% {font-size: 60px;}
-        100% {font-size: 36px;}
+        100% {font-size: 40px;}
     }
 
     #business-card {
@@ -366,6 +366,7 @@ li {
     
     #second-minicard {
         height: 10vh;
+        margin-top: 0;
         animation: mini-match 3.2s ease-out;
     }
 
