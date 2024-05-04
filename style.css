@@ -10,6 +10,7 @@ h1 {
 }
 
 #symbol {
+    margin: 0;
     font-family: "Concert One", sans-serif;
     font-size: 70px;
     color: #ff9911;
@@ -74,6 +75,7 @@ h1 {
 }
 
 #second-minicard {
+    display: flex;
     height: 15vh;
     align-content: center;
     margin-top: -10px;
@@ -297,8 +299,10 @@ li {
     }
 
     #symbol {
+        height: 10vh;
         font-family: "Concert One", sans-serif;
         font-size: 40px;
+        align-content: center;
         color: #ff9911;
         animation-name: coloring;
         animation-duration: 3.2s;
@@ -365,9 +369,7 @@ li {
     }
     
     #second-minicard {
-        align-content: center;
-        height: 10vh;
-        margin-top: 0;
+        align-items: center;
         animation: mini-match 3.2s ease-out;
     }
 
