@@ -2,7 +2,8 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0;
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 h1 {
@@ -348,6 +349,7 @@ li {
         animation-name: appear;
         animation-duration: 3.2s;
         animation-timing-function: ease-out;
+        height: 10vh;
         width: 30vw;
         text-align: end;
         padding-right: 6vw;
@@ -369,6 +371,7 @@ li {
     #second-minicard {
         align-content: center;
         margin-top: 0;
+        height: 10vh;
         animation: mini-match 3.2s ease-out;
     }
 
@@ -383,6 +386,7 @@ li {
         animation-name: surge;
         animation-duration: 3.2s;
         animation-timing-function: ease-out;
+        height: 10vh;
         width: 30vw;
         padding-left: 5vw;
         text-align: start;
