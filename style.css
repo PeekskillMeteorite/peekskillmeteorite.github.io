@@ -298,14 +298,12 @@ li {
     }
 
     #symbol {
-        height: 10vh;
+        height: 10%;
         font-family: "Concert One", sans-serif;
         font-size: 40px;
         align-content: center;
         color: #ff9911;
-        animation-name: coloring;
-        animation-duration: 3.2s;
-        animation-timing-function: ease-out;
+        animation: coloring 3.2s ease-out;
     }
     
     @keyframes coloring {
@@ -323,29 +321,29 @@ li {
 
     #business-card {
         display: flex;
-        height: 10%;
+        height: 10vh;
         max-width: 100vw;
+        margin-bottom: 10px;
         justify-content: center;
         align-items: center;
         background-color: #008080;
         color: white;
-        animation-name: shrink;
-        animation-duration: 3.2s;
-        margin-bottom: 10px;
+        animation-name: shrink 3.2s ease-out;
     }
     
     @keyframes shrink {
-        0% {height: 100vh;}
-        75% {height: 100vh;}
-        100% {height: 10%;}
+        0% {height: 100vh;
+        margin-bottom: 0;}
+        75% {height: 100vh;
+        margin-bottom: 0;}
+        100% {height: 10vh;
+        margin-bottom: 10px;}
     }
     
     #first-minicard {
         align-content: center;
-        animation-name: appear;
-        animation-duration: 3.2s;
-        animation-timing-function: ease-out;
-        height: 10%;
+        animation-name: appear 3.2s ease-out;
+        height: 10vh;
         width: 30vw;
         text-align: end;
         padding-right: 6vw;
@@ -360,28 +358,26 @@ li {
         60% {transform: translateY(0px);
             opacity: 1;}
         75% {height: 20vh;}
-        100% {height: 10%;}
+        100% {height: 10vh;}
     }
     
     #second-minicard {
         align-content: center;
         margin-top: -10px;
-        height: 10%;
+        height: 10vh;
         animation: mini-match 3.2s ease-out;
     }
 
     @keyframes mini-match {
         0% {height: 30vh;}
         75% {height: 30vh;}
-        100% {height: 10%;}
+        100% {height: 10vh;}
     }
     
     #third-minicard {
         align-content: center;
-        animation-name: surge;
-        animation-duration: 3.2s;
-        animation-timing-function: ease-out;
-        height: 10%;
+        animation-name: surge 3.2s ease-out;
+        height: 10vh;
         width: 30vw;
         padding-left: 5vw;
         text-align: start;
@@ -390,14 +386,13 @@ li {
     @keyframes surge {
         0% {transform: translateY(300px);
             opacity: 0;
-            height: 20vh;
-        }
+            height: 20vh;}
         40% {transform: translateY(300px);
             opacity: 0;}
         60% {transform: translateY(0px);
             opacity: 1;}
         75% {height: 20vh;}
-        100% {height: 10%;}
+        100% {height: 10vh;}
     }
 
     #intro {
