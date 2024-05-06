@@ -339,17 +339,13 @@ li {
         75% {height: 100vh;}
         100% {height: 10vh;}
     }
-
-    #first-minicard, #second-minicard, #third-minicard {
-        height: 5vh;
-    }
     
     #first-minicard {
         align-content: center;
         animation-name: appear;
         animation-duration: 3.2s;
         animation-timing-function: ease-out;
-        height: 5vh;
+        height: 10vh;
         width: 30vw;
         text-align: end;
         padding-right: 6vw;
@@ -364,20 +360,20 @@ li {
         60% {transform: translateY(0px);
             opacity: 1;}
         75% {height: 20vh;}
-        100% {height: 5vh;}
+        100% {height: 10vh;}
     }
     
     #second-minicard {
         align-content: center;
         margin-top: -10px;
-        height: 5vh;
+        height: 10vh;
         animation: mini-match 3.2s ease-out;
     }
 
     @keyframes mini-match {
         0% {height: 30vh;}
         75% {height: 30vh;}
-        100% {height: 5vh;}
+        100% {height: 10vh;}
     }
     
     #third-minicard {
@@ -385,7 +381,7 @@ li {
         animation-name: surge;
         animation-duration: 3.2s;
         animation-timing-function: ease-out;
-        height: 5vh;
+        height: 10vh;
         width: 30vw;
         padding-left: 5vw;
         text-align: start;
@@ -401,7 +397,7 @@ li {
         60% {transform: translateY(0px);
             opacity: 1;}
         75% {height: 20vh;}
-        100% {height: 5vh;}    
+        100% {height: 10vh;}
     }
 
     #intro {
