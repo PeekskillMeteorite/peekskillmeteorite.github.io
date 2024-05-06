@@ -306,6 +306,13 @@ li {
     #business-card {
         display: flex;
         height: 10vh;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        text-align: center;
         animation: shrink 3.2s ease-out;
     }
     
