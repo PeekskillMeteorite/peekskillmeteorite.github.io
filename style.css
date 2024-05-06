@@ -364,7 +364,7 @@ li {
         60% {transform: translateY(0px);
             opacity: 1;}
         75% {height: 20vh;}
-        100% {height: 10vh;}
+        100% {height: 5vh;}
     }
     
     #second-minicard {
@@ -377,7 +377,7 @@ li {
     @keyframes mini-match {
         0% {height: 30vh;}
         75% {height: 30vh;}
-        100% {height: 10vh;}
+        100% {height: 5vh;}
     }
     
     #third-minicard {
@@ -401,7 +401,7 @@ li {
         60% {transform: translateY(0px);
             opacity: 1;}
         75% {height: 20vh;}
-        100% {height: 10vh;}    
+        100% {height: 5vh;}    
     }
 
     #intro {
