@@ -323,7 +323,7 @@ li {
 
     #business-card {
         display: flex;
-        height: 10vh;
+        height: 10%;
         max-width: 100vw;
         justify-content: center;
         align-items: center;
@@ -337,7 +337,7 @@ li {
     @keyframes shrink {
         0% {height: 100vh;}
         75% {height: 100vh;}
-        100% {height: 10vh;}
+        100% {height: 10%;}
     }
     
     #first-minicard {
@@ -345,7 +345,7 @@ li {
         animation-name: appear;
         animation-duration: 3.2s;
         animation-timing-function: ease-out;
-        height: 10vh;
+        height: 10%;
         width: 30vw;
         text-align: end;
         padding-right: 6vw;
@@ -360,20 +360,20 @@ li {
         60% {transform: translateY(0px);
             opacity: 1;}
         75% {height: 20vh;}
-        100% {height: 10vh;}
+        100% {height: 10%;}
     }
     
     #second-minicard {
         align-content: center;
         margin-top: -10px;
-        height: 10vh;
+        height: 10%;
         animation: mini-match 3.2s ease-out;
     }
 
     @keyframes mini-match {
         0% {height: 30vh;}
         75% {height: 30vh;}
-        100% {height: 10vh;}
+        100% {height: 10%;}
     }
     
     #third-minicard {
@@ -381,7 +381,7 @@ li {
         animation-name: surge;
         animation-duration: 3.2s;
         animation-timing-function: ease-out;
-        height: 10vh;
+        height: 10%;
         width: 30vw;
         padding-left: 5vw;
         text-align: start;
@@ -397,7 +397,7 @@ li {
         60% {transform: translateY(0px);
             opacity: 1;}
         75% {height: 20vh;}
-        100% {height: 10vh;}
+        100% {height: 10%;}
     }
 
     #intro {
