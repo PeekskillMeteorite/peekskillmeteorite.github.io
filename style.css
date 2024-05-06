@@ -306,22 +306,13 @@ li {
     #business-card {
         display: flex;
         height: 10vh;
-        max-width: 100vw;
-        margin-bottom: 10px;
-        justify-content: center;
-        align-items: center;
-        background-color: #008080;
-        color: white;
-        animation-name: shrink 3.2s ease-out;
+        animation: shrink 3.2s ease-out;
     }
     
     @keyframes shrink {
-        0% {height: 100vh;
-        margin-bottom: 0;}
-        75% {height: 100vh;
-        margin-bottom: 0;}
-        100% {height: 10vh;
-        margin-bottom: 10px;}
+        0% {height: 100vh;}
+        75% {height: 100vh;}
+        100% {height: 10vh;}
     }
     
     #first-minicard {
