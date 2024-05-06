@@ -341,7 +341,7 @@ li {
     }
 
     #first-minicard, #second-minicard, #third-minicard {
-        height: 10vh;
+        height: 5vh;
     }
     
     #first-minicard {
@@ -349,7 +349,7 @@ li {
         animation-name: appear;
         animation-duration: 3.2s;
         animation-timing-function: ease-out;
-        height: 10vh;
+        height: 5vh;
         width: 30vw;
         text-align: end;
         padding-right: 6vw;
@@ -370,7 +370,7 @@ li {
     #second-minicard {
         align-content: center;
         margin-top: -10px;
-        height: 10vh;
+        height: 5vh;
         animation: mini-match 3.2s ease-out;
     }
 
@@ -385,7 +385,7 @@ li {
         animation-name: surge;
         animation-duration: 3.2s;
         animation-timing-function: ease-out;
-        height: 10vh;
+        height: 5vh;
         width: 30vw;
         padding-left: 5vw;
         text-align: start;
