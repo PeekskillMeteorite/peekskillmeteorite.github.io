@@ -318,6 +318,7 @@ li {
     #first-minicard {
         align-content: center;
         animation: appear 3.2s ease-out;
+        animation-fill-mode: forwards;
         height: 10vh;
         width: 30vw;
         text-align: end;
@@ -341,6 +342,7 @@ li {
     
     #second-minicard {
         align-content: center;
+        animation-fill-mode: forwards;
         animation: match 3.2s ease-out;
     }
 
@@ -352,6 +354,7 @@ li {
 
     #third-minicard {
         align-content: center;
+        animation-fill-mode: forwards;
         height: 10vh;
         width: 30vw;
         padding-left: 4vw;
