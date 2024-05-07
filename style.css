@@ -269,6 +269,51 @@ li {
     margin: 10px 10px 20px 10px;
 }
 
+@media (max-width: 1042px) {
+    .title-h {
+        padding: 6px;
+        font-size: 32px;
+        animation: descale 3.2s ease-out;
+    }
+
+    @keyframes descale {
+        0% {font-size: 42px;}
+        75% {font-size: 42px;}
+        100% {font-size: 32px;}
+    }
+
+    #symbol {
+        font-size: 60px;
+        animation: coloring 3.2s ease-out;
+    }
+
+    @keyframes coloring {
+        0% {color: #008080;
+            transform: rotate(360deg);
+            font-size: 100px;}
+        15% {color: #008080;}
+        30% {color: #ff9911;}
+        40% {transform: rotate(360deg);}
+        60% {transform: rotate(0deg);}
+        75% {font-size: 100px;}
+        100% {font-size: 60px;}
+    }
+
+    #business-card {
+        height: 13vh;
+        animation: shrink 3.2s ease-out;
+    }
+
+    @keyframes shrink {
+        0% {height: 100vh;}
+        75% {height: 100vh;}
+        100% {height: 13vh;}
+    }
+
+    
+    
+}
+
 @media (max-width: 720px) {
     .title-h {
         margin: 0 10px;
@@ -312,9 +357,7 @@ li {
         100% {height: 10vh;}
     }
 
-    #first-minicard, #second-minicard, #third-minicard {
-        height: inherit;
-    }
+    
     
     #first-minicard {
         align-content: center;
