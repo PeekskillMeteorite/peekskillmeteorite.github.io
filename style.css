@@ -363,7 +363,7 @@ li {
         align-content: center;
         width: 30vw;
         text-align: end;
-        margin-top: 20px;
+        margin-top: 50px;
         padding-right: 5vw;
         animation: appear 3.2s ease-out;
     }
@@ -386,7 +386,7 @@ li {
     }
     
     #second-minicard {
-        margin-top: 25px;
+        margin-top: 55px;
         animation: match 3.2s ease-out;
     }
 
@@ -402,7 +402,7 @@ li {
     #third-minicard {
         align-content: center;
         width: 30vw;
-        margin-top: 20px;
+        margin-top: 50px;
         padding-left: 4vw;
         text-align: start;
         animation: surge 3.2s ease-out;
