@@ -330,7 +330,7 @@ li {
             opacity: 0;
             height: 20vh;
             padding-right: 3vw;
-            margin-top: 5px;}
+            margin-top: -5px;}
         40% {transform: translateY(-300px);
             opacity: 0;}
         60% {transform: translateY(0px);
@@ -348,9 +348,11 @@ li {
     }
 
     @keyframes match {
-        0% {height: 30vh;}
+        0% {height: 30vh;
+            margin-top: -10px;}
         75% {height: 30vh;}
-        100% {height: 10vh;}
+        100% {height: 10vh;
+              margin-top: -10px;}
     }
 
     #third-minicard {
@@ -367,7 +369,7 @@ li {
             opacity: 0;
             height: 20vh;
             padding-left: 1vw;
-            margin-top: 5px;}
+            margin-top: -5px;}
         40% {transform: translateY(300px);
             opacity: 0;}
         60% {transform: translateY(0px);
@@ -376,7 +378,7 @@ li {
              padding-left: 1vw;}
         100% {height: 10vh;
               padding-left: 4vw;
-              margin-top: -5px;}
+              margin-top: -5px;}=
     }
 
     #intro {
