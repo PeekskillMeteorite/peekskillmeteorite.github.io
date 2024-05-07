@@ -379,8 +379,7 @@ li {
             opacity: 1;}
         75% {height: 20vh;
              padding-right: 3vw;}
-        100% {height: 10vh;
-              padding-right: 5vw;}
+        100% {padding-right: 5vw;}
     }
     
     #second-minicard {
@@ -391,7 +390,6 @@ li {
     @keyframes match {
         0% {height: 30vh;}
         75% {height: 30vh;}
-        100% {height: 10vh;}
     }
 
     #third-minicard {
@@ -414,8 +412,7 @@ li {
             opacity: 1;}
         75% {height: 20vh;
              padding-left: 1vw;}
-        100% {height: 10vh;
-              padding-left: 4vw;}
+        100% {padding-left: 4vw;}
     }
 
     #intro {
