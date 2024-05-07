@@ -363,7 +363,6 @@ li {
         align-content: center;
         width: 30vw;
         text-align: end;
-        margin-top: 20px;
         padding-right: 5vw;
         animation: appear 3.2s ease-out;
     }
@@ -372,8 +371,7 @@ li {
         0% {transform: translateY(-300px);
             opacity: 0;
             height: 20vh;
-            padding-right: 3vw;
-            margin-top: -5px;}
+            padding-right: 3vw;}
         40% {transform: translateY(-300px);
             opacity: 0;}
         60% {transform: translateY(0px);
@@ -381,28 +379,22 @@ li {
         75% {height: 20vh;
              padding-right: 3vw;}
         100% {height: 10vh;
-              padding-right: 5vw;
-              margin-top: -16px;}
+              padding-right: 5vw;}
     }
     
     #second-minicard {
-        margin-top: 25px;
         animation: match 3.2s ease-out;
     }
 
     @keyframes match {
-        0% {height: 30vh;
-            margin-top: -10px;}
-        75% {height: 30vh;
-            margin-top: -10px;}
-        100% {height: 10vh;
-              margin-top: -50px;}
+        0% {height: 30vh;}
+        75% {height: 30vh;}
+        100% {height: 10vh;}
     }
 
     #third-minicard {
         align-content: center;
         width: 30vw;
-        margin-top: 20px;
         padding-left: 4vw;
         text-align: start;
         animation: surge 3.2s ease-out;
@@ -412,8 +404,7 @@ li {
         0% {transform: translateY(300px);
             opacity: 0;
             height: 20vh;
-            padding-left: 1vw;
-            margin-top: -5px;}
+            padding-left: 1vw;}
         40% {transform: translateY(300px);
             opacity: 0;}
         60% {transform: translateY(0px);
@@ -421,8 +412,7 @@ li {
         75% {height: 20vh;
              padding-left: 1vw;}
         100% {height: 10vh;
-              padding-left: 4vw;
-              margin-top: -16px;}
+              padding-left: 4vw;}
     }
 
     #intro {
