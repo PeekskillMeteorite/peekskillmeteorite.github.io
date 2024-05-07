@@ -318,10 +318,11 @@ li {
     
     #first-minicard {
         align-content: center;
-        animation: appear 3.2s ease-out;
         width: 30vw;
         text-align: end;
+        padding: 0;
         padding-right: 5vw;
+        animation: appear 3.2s ease-out;
     }
     
     @keyframes appear {
@@ -340,6 +341,7 @@ li {
     }
     
     #second-minicard {
+        padding: 0;
         animation: match 3.2s ease-out;
     }
 
@@ -352,19 +354,20 @@ li {
     #third-minicard {
         align-content: center;
         width: 30vw;
+        padding: 0;
         padding-left: 4vw;
         text-align: start;
         animation: surge 3.2s ease-out;
     }
     
     @keyframes surge {
-        0% {/*transform: translateY(300px);*/
+        0% {transform: translateY(300px);
             opacity: 0;
             height: 20vh;
             padding-left: 1vw;}
-        40% {/*transform: translateY(300px);*/
+        40% {transform: translateY(300px);
             opacity: 0;}
-        60% {/*transform: translateY(0px);*/
+        60% {transform: translateY(0px);
             opacity: 1;}
         75% {height: 20vh;
              padding-left: 1vw;}
