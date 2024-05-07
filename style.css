@@ -306,13 +306,6 @@ li {
     #business-card {
         display: flex;
         height: 10vh;
-        justify-content: center;
-        justify-self: center;
-        justify-items: center;
-        align-items: center;
-        align-self: center;
-        align-content: center;
-        text-align: center;
         animation: shrink 3.2s ease-out;
     }
     
@@ -321,14 +314,18 @@ li {
         75% {height: 100vh;}
         100% {height: 10vh;}
     }
+
+    #first-minicard, #second-minicard, #third-minicard {
+        height: 10vh;
+    }
     
     #first-minicard {
         align-content: center;
         animation: appear 3.2s ease-out;
         animation-fill-mode: forwards;
-        height: 10vh;
         width: 30vw;
         text-align: end;
+        text-justify: auto;
         padding-right: 5vw;
     }
     
@@ -362,10 +359,10 @@ li {
     #third-minicard {
         align-content: center;
         animation-fill-mode: forwards;
-        height: 10vh;
         width: 30vw;
         padding-left: 4vw;
         text-align: start;
+        text-justify: auto;
         animation: surge 3.2s ease-out;
     }
     
