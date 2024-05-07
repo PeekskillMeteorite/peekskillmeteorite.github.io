@@ -89,8 +89,7 @@ h1 {
 @keyframes surge {
     0% {transform: translateY(300px);
         opacity: 0;
-        height: 35vh;
-    }
+        height: 35vh;}
     40% {transform: translateY(300px);
         opacity: 0;}
     60% {transform: translateY(0px);
@@ -285,7 +284,6 @@ li {
     }
 
     #symbol {
-        font-family: "Concert One", sans-serif;
         font-size: 40px;
         color: #ff9911;
         animation: coloring 3.2s ease-out;
@@ -304,7 +302,6 @@ li {
     }
 
     #business-card {
-        display: flex;
         height: 10vh;
         animation: shrink 3.2s ease-out;
     }
@@ -322,10 +319,8 @@ li {
     #first-minicard {
         align-content: center;
         animation: appear 3.2s ease-out;
-        animation-fill-mode: forwards;
         width: 30vw;
         text-align: end;
-        text-justify: auto;
         padding-right: 5vw;
     }
     
@@ -345,8 +340,6 @@ li {
     }
     
     #second-minicard {
-        align-content: center;
-        animation-fill-mode: forwards;
         animation: match 3.2s ease-out;
     }
 
@@ -358,22 +351,20 @@ li {
 
     #third-minicard {
         align-content: center;
-        animation-fill-mode: forwards;
         width: 30vw;
         padding-left: 4vw;
         text-align: start;
-        text-justify: auto;
         animation: surge 3.2s ease-out;
     }
     
     @keyframes surge {
-        0% {transform: translateY(300px);
+        0% {/*transform: translateY(300px);*/
             opacity: 0;
             height: 20vh;
             padding-left: 1vw;}
-        40% {transform: translateY(300px);
+        40% {/*transform: translateY(300px);*/
             opacity: 0;}
-        60% {transform: translateY(0px);
+        60% {/*transform: translateY(0px);*/
             opacity: 1;}
         75% {height: 20vh;
              padding-left: 1vw;}
