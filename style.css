@@ -483,7 +483,7 @@ li {
         align-content: center;
         width: 30vw;
         text-align: end;
-        margin-top: 20px;
+        margin-top: 10px;
         padding-right: 5vw;
         animation: appear 3.2s ease-out;
     }
@@ -502,7 +502,7 @@ li {
              padding-right: 3vw;}
         100% {height: 10vh;
               padding-right: 5vw;
-              margin-top: -16px;}
+              margin-top: -25px;}
     }
     
     #second-minicard {
@@ -516,13 +516,13 @@ li {
         75% {height: 30vh;
             margin-top: -20px;}
         100% {height: 10vh;
-              margin-top: -35px;}
+              margin-top: -40px;}
     }
 
     #third-minicard {
         align-content: center;
         width: 30vw;
-        margin-top: 20px;
+        margin-top: 10px;
         padding-left: 4vw;
         text-align: start;
         animation: surge 3.2s ease-out;
@@ -542,7 +542,7 @@ li {
              padding-left: 1vw;}
         100% {height: 10vh;
               padding-left: 4vw;
-              margin-top: -16px;}
+              margin-top: -25px;}
     }
 
     #intro {
