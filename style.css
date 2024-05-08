@@ -499,7 +499,7 @@ li {
         margin: 5px 6px 10px 6px;
     }
 
-    @media (max-width: 720px) {
+    @media (max-width: 720px and orientation: landscape) {
         #business-card {
             height: 20vh;
             animation: shrink 3.2s ease-out;
