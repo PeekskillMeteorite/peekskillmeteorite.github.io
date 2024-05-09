@@ -413,12 +413,12 @@ li {
 
     #intro {
         padding: 20px;
-        max-width: 700px;
+        max-width: 650px;
     }
 
     .hello {
         padding-top: 1vh;
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .skills {
@@ -498,10 +498,11 @@ li {
     }
     
     #first-minicard {
-        align-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         width: 30vw;
         text-align: end;
-        margin-top: 0;
         padding-right: 5vw;
         animation: appear 3.2s ease-out;
     }
@@ -510,8 +511,7 @@ li {
         0% {transform: translateY(-300px);
             opacity: 0;
             height: 20vh;
-            padding-right: 3vw;
-            margin-top: -35px;}
+            padding-right: 3vw;}
         40% {transform: translateY(-300px);
             opacity: 0;}
         60% {transform: translateY(0px);
@@ -519,28 +519,27 @@ li {
         75% {height: 20vh;
              padding-right: 3vw;}
         100% {height: 10vh;
-              padding-right: 5vw;
-              margin-top: -35px;}
+              padding-right: 5vw;}
     }
     
-    #second-minicard {
-        margin-top: 20px;
+    #second-minicard {        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         animation: match 3.2s ease-out;
     }
 
     @keyframes match {
-        0% {height: 30vh;
-            margin-top: -20px;}
-        75% {height: 30vh;
-            margin-top: -20px;}
-        100% {height: 10vh;
-              margin-top: -50px;}
+        0% {height: 30vh;}
+        75% {height: 30vh;}
+        100% {height: 10vh;}
     }
 
     #third-minicard {
-        align-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         width: 30vw;
-        margin-top: 0;
         padding-left: 4vw;
         text-align: start;
         animation: surge 3.2s ease-out;
@@ -550,8 +549,7 @@ li {
         0% {transform: translateY(300px);
             opacity: 0;
             height: 20vh;
-            padding-left: 1vw;
-            margin-top: -35px;}
+            padding-left: 1vw;}
         40% {transform: translateY(300px);
             opacity: 0;}
         60% {transform: translateY(0px);
@@ -559,8 +557,7 @@ li {
         75% {height: 20vh;
              padding-left: 1vw;}
         100% {height: 10vh;
-              padding-left: 4vw;
-              margin-top: -35px;}
+              padding-left: 4vw;}
     }
 
     #intro {
