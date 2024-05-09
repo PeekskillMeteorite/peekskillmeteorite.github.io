@@ -349,10 +349,10 @@ li {
 
     #first-minicard {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
         width: auto;
-        margin-top: -15px;
         padding: 0 5px 0 10px;
-        align-content: center;
     }
 
     @keyframes appear {
@@ -371,6 +371,9 @@ li {
 
     #second-minicard {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: -7px;
         animation: match 3.2 ease-out;
     }
 
@@ -385,8 +388,9 @@ li {
 
     #third-minicard {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
         padding-top: -15px;
-        align-content: center;
     }
     
     @keyframes surge {
