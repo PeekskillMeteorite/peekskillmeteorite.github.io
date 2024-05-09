@@ -452,7 +452,7 @@ li {
 
 @media (max-width: 720px) {
     .title-h {
-        margin: 0 10px;
+        margin: 0;
         font-size: 20px;
         font-weight: 600;
         animation: descale 3.2s ease-out;
@@ -465,7 +465,7 @@ li {
     }
 
     #symbol {
-        font-size: 42px;
+        font-size: 36px;
         color: #ff9911;
         animation: coloring 3.2s ease-out;
     }
@@ -473,13 +473,13 @@ li {
     @keyframes coloring {
         0% {color: #008080;
             transform: rotate(360deg);
-            font-size: 55px;}
+            font-size: 50px;}
         15% {color: #008080;}
         30% {color: #ff9911;}
         40% {transform: rotate(360deg);}
         60% {transform: rotate(0deg);}
-        75% {font-size: 55px;}
-        100% {font-size: 42px;}
+        75% {font-size: 50px;}
+        100% {font-size: 36px;}
     }
 
     #business-card {
@@ -502,32 +502,29 @@ li {
         flex-direction: column;
         justify-content: center;
         width: 30vw;
-        text-align: end;
-        padding-right: 9vw;
+        text-align: center;
         animation: appear 3.2s ease-out;
     }
     
     @keyframes appear {
         0% {transform: translateY(-300px);
             opacity: 0;
-            height: 20vh;
-            padding-right: 6vw;}
+            height: 20vh;}
         40% {transform: translateY(-300px);
             opacity: 0;}
         60% {transform: translateY(0px);
             opacity: 1;}
-        75% {height: 20vh;
-             padding-right: 6vw;}
-        100% {height: 10vh;
-              padding-right: 9vw;}
+        75% {height: 20vh;}
+        100% {height: 10vh;}
     }
     
     #second-minicard {        
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: -20px;
-        animation: match 3.2s ease-out;
+        margin-right: 7px;
+        text-align: center;
+        animation: match 3.2s ease-in-out;
     }
 
     @keyframes match {
@@ -540,25 +537,21 @@ li {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 30vw;
-        padding-left: 3vw;
-        text-align: start;
+        width: 33vw;
+        text-align: center;
         animation: surge 3.2s ease-out;
     }
     
     @keyframes surge {
         0% {transform: translateY(300px);
             opacity: 0;
-            height: 20vh;
-            padding-left: 0;}
+            height: 20vh;}
         40% {transform: translateY(300px);
             opacity: 0;}
         60% {transform: translateY(0px);
             opacity: 1;}
-        75% {height: 20vh;
-             padding-left: 0;}
-        100% {height: 10vh;
-              padding-left: 3vw;}
+        75% {height: 20vh;}
+        100% {height: 10vh;}
     }
 
     #intro {
