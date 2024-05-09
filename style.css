@@ -525,7 +525,7 @@ li {
     }
     
     #second-minicard {
-        margin-top: 25px;
+        margin-top: 20px;
         animation: match 3.2s ease-out;
     }
 
@@ -535,7 +535,7 @@ li {
         75% {height: 30vh;
             margin-top: -20px;}
         100% {height: 10vh;
-              margin-top: -40px;}
+              margin-top: -50px;}
     }
 
     #third-minicard {
