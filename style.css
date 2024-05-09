@@ -348,6 +348,7 @@ li {
     }
 
     #first-minicard {
+        display: flex;
         width: auto;
         margin-top: -15px;
         padding: 0 5px 0 10px;
@@ -369,6 +370,7 @@ li {
     }
 
     #second-minicard {
+        display: flex;
         animation: match 3.2 ease-out;
     }
 
@@ -382,6 +384,7 @@ li {
     }
 
     #third-minicard {
+        display: flex;
         padding-top: -15px;
         align-content: center;
     }
