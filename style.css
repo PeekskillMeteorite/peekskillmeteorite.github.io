@@ -358,32 +358,26 @@ li {
     @keyframes appear {
         0% {transform: translateY(-150px);
             opacity: 0;
-            height: 25vh;
-            padding-top: -200px;}
+            height: 25vh;}
         40% {transform: translateY(-150px);
              opacity: 0;}
         60% {transform: translateY(0px);
              opacity: 1;}
         75% {height: 25vh;}
-        100% {height: 15vh;
-        padding-top: -100px;}
+        100% {height: 15vh;}
     }
 
     #second-minicard {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: -7px;
         animation: match 3.2 ease-out;
     }
 
     @keyframes match {
-        0% {height: 30vh;
-            padding-top: -300px;}
-        75% {height: 30vh;
-             padding-top: -300px;}
-        100% {height: 10vh;
-              padding-top: -100px;}
+        0% {height: 30vh;}
+        75% {height: 30vh;}
+        100% {height: 10vh;}
     }
 
     #third-minicard {
@@ -396,15 +390,13 @@ li {
     @keyframes surge {
         0% {transform: translateY(150px);
             opacity: 0;
-            height: 25vh;
-            padding-top: -200px;}
+            height: 25vh;}
         40% {transform: translateY(150px);
             opacity: 0;}
         60% {transform: translateY(0px);
             opacity: 1;}
         75% {height: 25vh;}
-        100% {height: 15vh;
-              padding-top: -100px;}    
+        100% {height: 15vh;}
     }
 
     .title-h {
