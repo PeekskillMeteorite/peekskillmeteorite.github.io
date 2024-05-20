@@ -32,11 +32,22 @@ body {
     width: 25%;
     text-align: center;
     align-content: center;
-    border-left: #666 solid 1px;
+    border-right: #666 solid 1px;
     height: 40px;
     margin: auto;
     font-size: 26px;
     color: #644;
+}
+
+a {
+    text-decoration: none;
+    width: 25%;
+    text-align: center;
+    align-content: center;
+}
+
+a .nav-element {
+    width: 100%;
 }
 
 main {
