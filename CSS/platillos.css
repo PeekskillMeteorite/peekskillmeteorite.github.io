@@ -1,0 +1,51 @@
+body {
+    font-family: "Bellota", system-ui;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    box-shadow: #444 0px 0px 7px;
+}
+
+#title {
+    display: flex;
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: -10px;
+    color: #644;
+}
+
+#navbar {
+    display: flex;
+    box-shadow: #644 0px 0px 5px;
+    height: 72px;
+    justify-content: center;
+}
+
+.nav-element {
+    width: 25%;
+    text-align: center;
+    align-content: center;
+    border-left: #666 solid 1px;
+    height: 40px;
+    margin: auto;
+    font-size: 26px;
+    font-weight: 700;
+    color: #644;
+}
+
+main {
+    width: 1000px;
+    margin: 60px auto;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 700;
+}
