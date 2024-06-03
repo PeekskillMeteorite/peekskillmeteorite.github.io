@@ -1,0 +1,117 @@
+body {
+    font-family: "Bellota", system-ui;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    box-shadow: #444 0px 0px 7px;
+}
+
+#title {
+    display: flex;
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: -10px;
+    color: #644;
+}
+
+#navbar {
+    display: flex;
+    box-shadow: #444 0px 0px 5px;
+    height: 72px;
+    justify-content: center;
+}
+
+.nav-element {
+    width: 25%;
+    text-align: center;
+    align-content: center;
+    border-left: #666 solid 1px;
+    height: 40px;
+    margin: auto;
+    font-size: 26px;
+    font-weight: 700;
+    color: #644;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto 70px;
+    width: 1000px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    font-size: 36px;
+}
+
+.food {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 3px;
+    border-bottom: #999 1px solid;
+}
+
+.food-pic {
+    width: 350px;
+    height: 240px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.food-words {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    margin-right: 20px;
+}
+
+.food-name {
+    margin: 16px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.food-description {
+    margin: 0;
+    font-size: 18px;
+}
+
+.lista {
+    margin: 0;
+    font-size: 17px;
+    padding-left: 25px;
+}
+
+.food-details {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.food-price {
+    margin: 16px 3px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.alergens {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.alergen-item {
+    width: 46px;
+    margin: 2px;
+}
