@@ -172,6 +172,11 @@ footer {
         display: flex;
         align-items: center;
     }
+
+    #boxes {
+        margin: 0 auto;
+    }
+
 }
 
 @media (max-width: 720px) {
