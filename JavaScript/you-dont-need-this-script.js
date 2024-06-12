@@ -14,3 +14,8 @@ function changeLanguage(lang) {
         sug.innerHTML = "¿Tienes Sugerencias?"
     }
 }
+
+function turnToX(x) {
+    x.classList.toggle("change");
+    document.getElementById("hidden").classList.toggle("show");
+}
