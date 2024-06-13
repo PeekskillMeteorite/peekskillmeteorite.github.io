@@ -12,6 +12,10 @@ body {
     height: 100px;
 }
 
+#dropdown {
+    display: none;
+}
+
 #home-button {
     font-family: "Bebas Neue", sans-serif;
     font-size: 52px;
@@ -76,7 +80,6 @@ h4 {
 #container {
     padding: 0 50px;
     margin-top: 100px;
-    
 }
 
 #form {
@@ -95,7 +98,7 @@ label {
 }
 
 #fname, #lname {
-    width: 360px;
+    max-width: 360px;
     height: 24px;
     box-shadow: 2px 2px 2px #666;
     border: solid 1px #333;
@@ -222,14 +225,76 @@ footer {
 
 @media (max-width: 720px) {
     .banner {
-        padding-top: 10px;
-        height: 50px;
+        align-items: center;
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 30px;
+        height: 5px;
+        border-radius: 3px;
+        background-color: white;
+        margin: 5px 0;
+        transition: 0.4s;
+    }
+    
+    .change .bar1 {
+        transform: translate(0, 10px) rotate(-45deg);
+    }
+    
+    .change .bar2 {
+        opacity: 0;
+    }
+    
+    .change .bar3 {
+        transform: translate(0, -10px) rotate(45deg);
+    }
+    
+    #burger {
+        display: inline-block;
+        margin-left: 15px;
+    }
+
+    .hidden-menu {
+        display: none;
+        position: absolute;
+        background-color: #FF1050;
+        min-width: 260px;
+        min-height: 120px;
+        z-index: 1;
+        justify-content: space-evenly;
+        border-radius: 3px;
+    }
+
+    .hidden-link {
+        color: white;
+        font-family: "Poppins", sans-serif;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0 10px;
+    }
+
+    #dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .show {
+        display: flex;
+        flex-direction: column;
+        animation: show 0.4s;
+    }
+
+    @keyframes show {
+        0%{opacity: 0;}
+        100%{opacity: 1;}
     }
 
     #home-button {
         font-size: 36px;
         padding: 0;
         margin: auto;
+        margin-right: 15px;
     }
     
     #navbar {
@@ -245,9 +310,8 @@ footer {
 
     #english, #spanish {
         height: 36px;
-        width: 40px;
+        width: 36px;
         padding: 0;
-        padding-right: 5px;
     }
 
     main {
@@ -255,41 +319,31 @@ footer {
         justify-content: center;
     }
 
-    .product-box {
-        max-width: 280px;
-        height: 420px;
-        padding: 10px;
-        margin: 10px;
-        box-sizing: border-box;
-        border-top: 3px #00BBDD solid;
-        border-right: 3px #FA7922 solid;
-        border-bottom: 3px #791EA4 solid;
-        border-left: 3px #FF1050 solid;
+    #explanation {
+        padding: 0 30px;
     }
 
-    .product-image {
-        width: 260px;
-        max-height: 330px;
-        padding-bottom: 10px;
+    h2 {
+        font-size: 22px;
     }
 
-    .product-title {
-        padding-top: 3px;
-        height: 62px;
-        border-bottom: none;
+    h4 {
+        font-size: 15px;
+        font-weight: 600;
+    } 
+
+    #container {
+        padding: 0 30px;
+        margin: 50px 0;
     }
 
-    .product-name {
-        font-size: 14px;
-        line-height: 18px;
+    #fname, #lname {
+        font-size: 15px;
     }
 
-    .product-price {
-        font-size: 16px;;
-    }
-
-    .product-description {
-        display: none;
+    label {
+        font-size: 16px;
+        font-weight: 600;
     }
 
     footer {

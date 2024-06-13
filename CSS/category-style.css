@@ -12,6 +12,10 @@ body {
     height: 100px;
 }
 
+#dropdown {
+    display: none;
+}
+
 #home-button {
     font-family: "Bebas Neue", sans-serif;
     font-size: 52px;

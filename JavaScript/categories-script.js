@@ -53,3 +53,8 @@ function changeLanguage(lang) {
         pet.innerHTML = "Del trastero <br> (cosas sin categoría)"
     }
 }
+
+function turnToX(x) {
+    x.classList.toggle("change");
+    document.getElementById("hidden").classList.toggle("show");
+}

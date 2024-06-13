@@ -3,6 +3,7 @@ function changeLanguage(lang) {
     let categ = document.getElementById("categ");
     let what = document.getElementById("what");
     let sug = document.getElementById("sug");
+    
     if (lang == "en") {
         content.innerHTML = "<h1>So... Why does this site exists?</h1>  <p>Hello!<br>  You (as our friend Zac Efron above) might be wondering \"What's up with this site?\". And to that I say \"fair\".<br>  I (the creator and owner of this site) am the first to admit that this seems like your typical page that just wants to sell you stuff, and that's because it is. <br>  I created this site with two purposes: <br></p>  <ol class=\"list\">  <li>I'm junior software developer and this site is part of my portfolio. It was good practice in creating a page of this kind and now is proof that I'm capable of making one.</li>  <li>I wanted to make some extra money &nbsp;<strong>¯\\_(ツ)_/¯</strong><br>  Having said that. I am not fully comfortable with selling people stuff they don't need. Hence, the name <strong>\"You Don't Need This\"</strong>. More than a cool name, it's sort of a reminder/warning that every item you will ever see in this site is something that you absolutely <strong> don't need</strong>; it is just something you might really want.<br>  The name it's also a way to let people know what kind of stuff is showcased here: <em>very cool</em> stuff you don't need in the end. </li>  </ol>  <h2>So, how does this site make money?</h2>  <p>The short answer is Amazon Affiliate Program.<br>  If that answer does nothing for you, let me explain.  The Amazon Affiliate Program works like this:</p>  <ol class=\"list\">  <li>I become an Affiliate.</li>  <li>With this I can get Affiliate links to products that are sold on Amazon.</li>  <li>I use those links on this site.</li>  <li>By each visitor that goes to Amazon through one of those links and makes a buy, I receive a small compensation.</li>  <li>???</li>  <li><strong>Profit!</strong></li>  </ol>";
         categ.innerHTML = "Categories";
@@ -15,4 +16,9 @@ function changeLanguage(lang) {
         what.innerHTML = "¿QUÉ?";
         sug.innerHTML = "¿Tienes Sugerencias?"
     }
+}
+
+function turnToX(x) {
+    x.classList.toggle("change");
+    document.getElementById("hidden").classList.toggle("show");
 }
