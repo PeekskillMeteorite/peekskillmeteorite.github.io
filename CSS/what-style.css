@@ -260,8 +260,44 @@ footer {
     }
 
     main {
-        padding: 10px 0 0 0;
+        padding: 0;
         justify-content: center;
+    }
+
+    .pic-one {
+        margin: 0;
+        margin-top: 10px;
+        width: 360px;
+    }
+    
+    .pic-two {
+        margin: 0;
+        position: absolute;
+        width: 400px;
+        animation: flicker-2 6s infinite;
+    }
+
+    .pic-three {
+        margin: 0;
+        position: absolute;
+        width: 400px;
+        animation: flicker-3 6s infinite;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p, li {
+        font-size: 14px;
+    }
+
+    #explanation {
+        padding-bottom: 25px;
     }
 
     footer {
