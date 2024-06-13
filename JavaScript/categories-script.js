@@ -2,6 +2,7 @@ function changeLanguage(lang) {
     let categ = document.getElementById("categ");
     let what = document.getElementById("what");
     let sug = document.getElementById("sug");
+    let hid = document.getElementById("hidden");
 
     let merch = document.getElementById("merch");
     let toys = document.getElementById("toys");
@@ -20,6 +21,7 @@ function changeLanguage(lang) {
         categ.innerHTML = "Categories";
         what.innerHTML = "WHAT?";
         sug.innerHTML = "Have a Suggestion?"
+        hid.innerHTML = "<a class=\"hidden-link\" href=\"../HTML/categories-index.html\">Categories</a>  <a class=\"hidden-link\" href=\"../HTML/WHAT-index.html\">WHAT?</a>  <a class=\"hidden-link\" href=\"../HTML/suggestion-index.html\">Have a Suggestion?</a>"
 
         merch.innerHTML = "Merchandising"
         toys.innerHTML = "Toys"
@@ -38,6 +40,7 @@ function changeLanguage(lang) {
         categ.innerHTML = "Categorías";
         what.innerHTML = "¿QUÉ?";
         sug.innerHTML = "¿Tienes Sugerencias?"
+        hid.innerHTML = "<a class=\"hidden-link\" href=\"../HTML/categories-index.html\">Categorías</a>  <a class=\"hidden-link\" href=\"../HTML/WHAT-index.html\">¿QUÉ?</a>  <a class=\"hidden-link\" href=\"../HTML/suggestion-index.html\">¿Tienes Sugerencias?</a>"
 
         merch.innerHTML = "Merch"
         toys.innerHTML = "Juguetes"
