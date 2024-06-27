@@ -1,5 +1,6 @@
 body {
     font-family: "Bellota", system-ui;
+    color: #644;
     margin: 0;
     background-color: whitesmoke;
 }
@@ -18,7 +19,6 @@ body {
     font-weight: 700;
     margin: 0;
     margin-top: -10px;
-    color: #644;
 }
 
 #navbar {
@@ -37,7 +37,6 @@ body {
     margin: auto;
     font-size: 26px;
     font-weight: 700;
-    color: #644;
 }
 
 main {
@@ -77,14 +76,14 @@ main {
 }
 
 .food-name {
-    margin: 16px 0;
-    font-size: 24px;
+    margin: 12px 0;
+    font-size: 26px;
     font-weight: 700;
 }
 
 .food-description {
     margin: 0;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .lista {
