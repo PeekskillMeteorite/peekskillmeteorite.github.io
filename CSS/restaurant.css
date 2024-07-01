@@ -30,8 +30,9 @@ body {
 
 .nav-element {
     width: 25%;
-    text-align: center;
-    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-right: #666 solid 1px;
     height: 40px;
     margin: auto;
@@ -145,4 +146,71 @@ main {
     box-shadow: #666 0px 0px 8px;
     transition: 0.2s ease-out;
     opacity: 0.87;
+}
+
+@media (max-width: 720px) {
+    #banner {
+        height: 84px;
+        box-shadow: #444 0px 0px 4px;
+    }
+
+    #title {
+        font-size: 42px;
+        margin: 0;
+    }
+
+    #navbar {
+        height: 72px;
+        padding-top: 5px;
+        box-shadow: #444 0px 0px 2px;
+    }
+
+    .nav-element {
+        font-size: 16px;
+        line-height: 16px;
+        margin: auto;
+    }
+
+    main {
+        width: 100vw;
+        margin: 20px auto;
+    }
+
+    #welcome {
+        font-size: 32px;
+        margin: 30px 10px;
+    }
+
+    #choose {
+        font-size: 28px;
+        margin: 30px 10px;
+    }
+
+    #menu-area {
+        margin: 0;
+        padding-top: 10vw;
+        height: 200px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #paella {
+        border-radius: 20px;
+        height: 45vw;
+        width: 45vw;
+    }
+
+    #pabellon {
+        border-radius: 20px;
+        height: 45vw;
+        width: 45vw;
+    }
+
+    .text-block {
+        bottom: 20%;
+        left: 10%;
+        right: 10%;
+        border-radius: 15px;
+        font-size: 26px;
+    }
 }
