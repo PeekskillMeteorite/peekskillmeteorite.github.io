@@ -150,17 +150,17 @@ main {
 
 @media (max-width: 720px) {
     #banner {
-        height: 84px;
+        height: 80px;
         box-shadow: #444 0px 0px 4px;
     }
 
     #title {
-        font-size: 42px;
+        font-size: 40px;
         margin: 0;
     }
 
     #navbar {
-        height: 72px;
+        height: 70px;
         padding-top: 5px;
         box-shadow: #444 0px 0px 2px;
     }
@@ -177,18 +177,18 @@ main {
     }
 
     #welcome {
-        font-size: 32px;
+        font-size: 26px;
         margin: 30px 10px;
     }
 
     #choose {
-        font-size: 28px;
-        margin: 30px 10px;
+        font-size: 22px;
+        margin: 30px 10px 10px;
     }
 
     #menu-area {
         margin: 0;
-        padding-top: 10vw;
+        padding-top: 7vw;
         height: 200px;
         display: flex;
         justify-content: space-evenly;
