@@ -178,7 +178,7 @@ main {
 
     #welcome {
         font-size: 26px;
-        margin: 30px 10px;
+        margin: 20px 10px 30px;
     }
 
     #choose {
@@ -188,7 +188,7 @@ main {
 
     #menu-area {
         margin: 0;
-        padding-top: 7vw;
+        padding-top: 10vw;
         height: 200px;
         display: flex;
         justify-content: space-evenly;
@@ -197,13 +197,19 @@ main {
     #paella {
         border-radius: 20px;
         height: 45vw;
+        max-height: 260px;
         width: 45vw;
+        max-width: 260px;
+        animation: none;
     }
 
     #pabellon {
         border-radius: 20px;
         height: 45vw;
+        max-height: 260px;
         width: 45vw;
+        max-width: 260px;
+        animation: none;
     }
 
     .text-block {
