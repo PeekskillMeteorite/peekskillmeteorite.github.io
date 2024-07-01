@@ -30,22 +30,66 @@ body {
 
 .nav-element {
     width: 25%;
-    text-align: center;
-    align-content: center;
-    border-left: #666 solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: #666 solid 1px;
     height: 40px;
     margin: auto;
     font-size: 26px;
-    font-weight: 700;
     color: #644;
 }
 
+a {
+    text-decoration: none;
+    width: 25%;
+    display: flex;
+    text-align: center;
+}
+
+a .nav-element {
+    width: 100%;
+}
+
 main {
-    width: 1000px;
-    margin: 60px auto;
+    width: 900px;
+    margin: 100px auto;
 }
 
 p {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
+}
+
+@media (max-width: 720px) {
+    #banner {
+        height: 80px;
+        box-shadow: #444 0px 0px 4px;
+    }
+
+    #title {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    #navbar {
+        height: 70px;
+        padding-top: 5px;
+        box-shadow: #444 0px 0px 2px;
+    }
+
+    .nav-element {
+        font-size: 16px;
+        line-height: 16px;
+        margin: auto;
+    }
+
+    main {
+        width: 88vw;
+        margin: 40px auto 80px;
+    }
+
+    p {
+        font-size: 16px;
+    }    
 }
