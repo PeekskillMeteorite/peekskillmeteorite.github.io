@@ -86,7 +86,7 @@ main {
 
 #menu-esp {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;;
     position: relative;
 }
 
