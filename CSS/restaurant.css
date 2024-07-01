@@ -200,6 +200,9 @@ main {
         max-height: 260px;
         width: 45vw;
         max-width: 260px;
+    }
+    
+    #paella:hover {
         animation: none;
     }
 
@@ -209,6 +212,9 @@ main {
         max-height: 260px;
         width: 45vw;
         max-width: 260px;
+    }
+    
+    #pabellon:hover {
         animation: none;
     }
 
