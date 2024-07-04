@@ -13,6 +13,12 @@ body {
     box-shadow: #444 0px 0px 7px;
 }
 
+#t-link {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 #title {
     display: flex;
     font-size: 80px;
@@ -33,14 +39,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-right: #666 solid 1px;
     height: 40px;
     margin: auto;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 a {
     text-decoration: none;
+    color: #644;
     width: 25%;
     display: flex;
     text-align: center;

@@ -122,6 +122,10 @@ main {
     font-weight: 700;
 }
 
+.hr {
+    display: none;
+}
+
 .alergens {
     display: flex;
     flex-direction: row;
@@ -215,8 +219,8 @@ main {
         align-items: center;
     }
 
-    hr {
-        margin: 0;
+    .hr {
+        display: block;
     }
 
     .alergens {
